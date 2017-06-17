@@ -10,7 +10,9 @@ A simple calculator application built using jQuery and CSS.
 ## App Screenshot
 
 <br>
-<img width="1280" alt="screen shot 2017-06-17 at 18 44 06" src="https://user-images.githubusercontent.com/26364425/27255022-0466f2b0-538d-11e7-9aed-b72978c16be9.png">
+
+<img width="1266" alt="calculator-app" src="https://user-images.githubusercontent.com/26364425/27255059-cd0547f8-538d-11e7-8ed0-989682b97a93.png">
+
 <br>
 
 ## TODO
