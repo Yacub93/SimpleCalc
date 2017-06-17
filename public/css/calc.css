@@ -1,0 +1,317 @@
+html, body{
+
+  background-color: #34495e;
+  margin-bottom: 500px;
+}
+h1{
+  color:white;
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 5.0em;
+  padding-top: 0px;
+}
+#display{
+  font-size: 3.0em;
+  color : white;
+  padding-left: 350px;
+  float: right;
+}
+.calcOutput{
+  background-color:black;
+  opacity: 0.75;
+  width: 400px;
+  height: 75px;
+  margin-left : auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-top: 10px;
+/*   margin-bottom: 5px; */
+  
+  border-top-left-radius: 1em;
+/*   border-bottom-left-radius: 2em; */
+/*   border-bottom-right-radius: 2em; */
+  border-top-right-radius: 1em;
+}
+
+#calcButtons{
+  background-color : black;
+  color:white;
+  font-size: 2.0em;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 800px;
+  margin-left : auto;
+  margin-right: auto;
+/*   border-top-left-radius: 2em; */
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em; 
+/*   border-top-right-radius: 2em; */
+}
+
+a{
+  margin: 5px;
+  width: 4.6vw;
+/*   height: 2.6vw; */
+}
+
+#clearAll, #clear{
+  width: 60px;
+  font-size: 0.7em;
+}
+
+#equals{
+  width: 150px;
+  background-color: #e67e22;
+  border-color: #e67e22;
+  font-size: 0.7em;
+  margin-left: 14px;
+  margin-right: 15px;
+}
+#equals:hover{
+  background-color: #d35400;
+  border-color: #d35400;
+}
+
+
+/* Operators */
+.btn.btn-primary.minus{
+  background-color: #e67e22;
+  border-color: #e67e22;
+  font-size: 0.7em;
+  width: 76px;
+}
+
+.btn.btn-primary.minus:hover{
+  background-color: #d35400;
+  border-color: #d35400;
+}
+
+.btn.btn-primary.plus{
+  background-color: #e67e22;
+  border-color: #e67e22;
+  font-size: 0.7em;
+  width: 76px;
+}
+.btn.btn-primary.plus:hover{
+  background-color: #d35400;
+  border-color: #d35400;
+}
+
+.btn.btn-primary.times{
+  background-color: #e67e22;
+  border-color: #e67e22;
+  font-size: 0.7em;
+  width: 76px;
+}
+
+.btn.btn-primary.times:hover{
+  background-color: #d35400;
+  border-color: #d35400;
+}
+.btn.btn-primary.divide{
+  background-color: #e67e22;
+  border-color: #e67e22;
+  font-size: 0.7em;
+  width: 76px;
+}
+.btn.btn-primary.divide:hover{
+  background-color: #d35400;
+  border-color: #d35400;
+}
+
+/* Number Pad */
+
+.btn.btn-primary.one{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.one:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+}
+
+.btn.btn-primary.two{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.two:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+
+}
+
+.btn.btn-primary.three{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.three:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+
+}
+.btn.btn-primary.four{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.four:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+
+}
+
+.btn.btn-primary.five{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.five:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+
+}
+
+.btn.btn-primary.six{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.six:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+
+}
+
+.btn.btn-primary.seven{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.seven:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+}
+
+.btn.btn-primary.eight{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.eight:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+}
+.btn.btn-primary.nine{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.nine:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+}
+
+.btn.btn-primary.zero{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+  margin-right: 1px;
+}
+
+.btn.btn-primary.zero:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+}
+
+.btn.btn-primary.decimal{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+  margin-right: -2px;
+}
+
+.btn.btn-primary.decimal:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+}
+
+.btn.btn-primary.percent{
+  background-color: grey;
+  border-color: grey;
+  color:white;
+  font-size: 0.7em;
+}
+
+.btn.btn-primary.percent:hover{
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: black;
+}
+
+
+a.btn-lg.btn-primary {
+  background-color: #B0CF00;
+  color: #ffffff;
+  margin: 5px;
+
+}
+
+a.btn-lg.btn-primary:hover{
+  background-color: #003B2B;
+}
+
+.fa.fa-github{
+  font-size:60px;
+  color:#B0CF00;
+}
+
+.fa.fa-linkedin{
+  font-size:60px;
+  margin-bottom: 20px;
+  color:#B0CF00;
+}
+
+.fa.fa-github:hover{
+  color: #f5f5f5;
+}
+
+.fa.fa-linkedin:hover{
+  /*color: #ffffff;*/
+  color: #0077B5 ; 
+}
