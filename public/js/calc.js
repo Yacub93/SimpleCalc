@@ -7,7 +7,7 @@ $(document).ready(function() {
   var finalEquation = "";
   
   //Array of operators for validation without the "."
-  var operators1 = ["+", "-", "*", "/"];
+  var operators1 = ["+", "-", "*", "/", "%"];
 
   
   //Operator for validation with the "."
@@ -47,12 +47,20 @@ $(document).ready(function() {
   
   // get current total
   function getTotal(){
-    try{
+    // try and catch for incorrect user input errors
+    try {
     finalEquation = inputs.join("");
+
+    // Calculate Percentage by replacing % with /100 using REGEX so it can be evaluated
+    if (finalEquation.includes('%') == true) {
+      finalEquation = finalEquation.replace(/%/g, '/100');
+      console.log("Calculated % " + finalEquation);
+    } 
+
     // Replace all instances of x and ÷ with * and / respectively using REGEX 
     finalEquation = finalEquation.replace(/\x/g, '*').replace(/÷/g, '/');
       console.log("finalEquation "+eval(finalEquation));
-    $("#display").html(eval(finalEquation)); //return calculated result
+    $("#display").html(eval(finalEquation)); //return calculated result and display value
     }
     catch(err) {
         alert("ERROR: incorrect input " + err + " Please check your calculation");
@@ -72,7 +80,7 @@ $(document).ready(function() {
       getTotal();
     }
     else{
-      if(inputs[inputs.length -1].indexOf("+", "-", "*", "/") === -1){
+      if(inputs[inputs.length -1].indexOf("+", "-", "*", "/", "%") === -1){
           getValue(this.id);
          }
        else {
