@@ -4,6 +4,7 @@ A simple calculator application built using jQuery and CSS.
 
 # App Features
 * Perform basic arithmetic
+* Calculate Percentage using percent
 * includes alert message if for incorrect inputs
 * Clean UI and responsive
 
@@ -16,5 +17,5 @@ A simple calculator application built using jQuery and CSS.
 <br>
 
 ## TODO
-* Add percent function to calculator
-* Fix Minus display issue on calculator
+* Add percent function to calculator [DONE]
+* Fix Minus display issue on calculator [DONE]
